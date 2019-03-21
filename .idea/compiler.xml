@@ -11,6 +11,7 @@
         <module name="microservicecloud-dept-8002" />
         <module name="microservicecloud-dept-8003" />
         <module name="microservicecloud-dept-consumer-80" />
+        <module name="microservicecloud-dept-consumer-feign-80" />
         <module name="microservicecloud-eureka-7001" />
         <module name="microservicecloud-eureka-7002" />
         <module name="microservicecloud-eureka-7003" />
@@ -24,6 +25,7 @@
       <module name="microservicecloud-dept-8002" target="1.8" />
       <module name="microservicecloud-dept-8003" target="1.8" />
       <module name="microservicecloud-dept-consumer-80" target="1.8" />
+      <module name="microservicecloud-dept-consumer-feign-80" target="1.8" />
       <module name="microservicecloud-eureka-7001" target="1.8" />
       <module name="microservicecloud-eureka-7002" target="1.8" />
       <module name="microservicecloud-eureka-7003" target="1.8" />
