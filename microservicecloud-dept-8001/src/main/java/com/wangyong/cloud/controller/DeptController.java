@@ -1,7 +1,6 @@
 package com.wangyong.cloud.controller;
 
 import com.wangyong.cloud.entities.Dept;
-import com.wangyong.cloud.mapper.DeptMapper;
 import com.wangyong.cloud.service.DptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

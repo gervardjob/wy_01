@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-dept-8001-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-dept-8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-dept-consumer-80" charset="UTF-8" />

@@ -1,4 +1,4 @@
-package com.wangyong.myRule;
+package com.wangyong.cloud.myRule;
 
 import com.netflix.loadbalancer.IRule;
 import org.springframework.context.annotation.Bean;

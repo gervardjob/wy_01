@@ -1,11 +1,15 @@
-package com.wangyong.myRule;
+package com.wangyong.cloud.myRule;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;
 import com.netflix.loadbalancer.ILoadBalancer;
+import com.netflix.loadbalancer.RoundRobinRule;
 import com.netflix.loadbalancer.Server;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by gervard on 2019/3/20.

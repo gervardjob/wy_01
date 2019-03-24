@@ -1,0 +1,39 @@
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/clouddb01?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: microservicecloud-dept
+server:
+  port: 8001
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.wangyong.cloud.entities    # 所有Entity别名类所在包
+  mapper-locations: classpath:mybatis/mapper/*.xml
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservicecloud-dept-8001-hystrix  #自定义服务名称
+    prefer-ip-address: true # 访问路径可以访问Ip地址
+  #instance:
+    #lease-expiration-duration-in-seconds: 30 #租期到期时间 （默认90）
+    #lease-renewal-interval-in-seconds: 10 #租期更新时间间隔 （默认30）
+  #configuration:
+   # map-underscore-to-camel-case: true
+info:
+  app.name: cloud-wangyong
+  company.name: www.wangyong.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
+
+
+

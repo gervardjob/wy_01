@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.wangyong.cloud.mapper.DeptMapper">
+<mapper namespace="DeptMapper">
 
 	<select id="get" resultType="com.wangyong.cloud.entities.Dept" parameterType="Integer">
 		select id ,dpt_name ,datasource from dept where id=#{id};

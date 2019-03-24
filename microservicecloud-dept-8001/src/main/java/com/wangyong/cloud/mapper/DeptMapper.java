@@ -1,7 +1,6 @@
 package com.wangyong.cloud.mapper;
 
 import com.wangyong.cloud.entities.Dept;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 

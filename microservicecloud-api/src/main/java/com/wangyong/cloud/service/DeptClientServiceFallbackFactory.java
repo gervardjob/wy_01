@@ -12,24 +12,24 @@ import feign.hystrix.FallbackFactory;
 public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptClientService>
 {
 	@Override
-	public DeptClientService create(Throwable throwable)
-	{
+	public DeptClientService create(Throwable throwable){
+
 		return new DeptClientService() {
-			public Dept get(Integer id)
-			{
-				return new Dept().setId(id).setDpt_name("该ID：" + id + "没有没有对应的信息,Consumer客户端提供的降级信息,此刻服务Provider已经关闭")
-						.setDatasource("no this database in MySQL");
+			@Override
+			public Dept get(Integer id) {
+				return new Dept().setDpt_name("hehe");
 			}
 
-			public List<Dept> list()
-			{
+			@Override
+			public List<Dept> list() {
 				return null;
 			}
 
-			public boolean add(Dept dept)
-			{
+			@Override
+			public boolean add(Dept dept) {
 				return false;
 			}
+
 		};
 	}
 }

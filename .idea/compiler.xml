@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
+        <module name="microservicecloud-consumer-hystrix-dashboard" />
         <module name="microservicecloud-dept-8001" />
+        <module name="microservicecloud-dept-8001-hystrix" />
         <module name="microservicecloud-dept-8002" />
         <module name="microservicecloud-dept-8003" />
         <module name="microservicecloud-dept-consumer-80" />
@@ -21,7 +23,9 @@
       <module name="cloud-parent" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="microservicecloud-api" target="1.8" />
+      <module name="microservicecloud-consumer-hystrix-dashboard" target="1.8" />
       <module name="microservicecloud-dept-8001" target="1.8" />
+      <module name="microservicecloud-dept-8001-hystrix" target="1.8" />
       <module name="microservicecloud-dept-8002" target="1.8" />
       <module name="microservicecloud-dept-8003" target="1.8" />
       <module name="microservicecloud-dept-consumer-80" target="1.8" />
